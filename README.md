@@ -96,7 +96,11 @@ puts name2   #=> ABHISHEK
 =begin 
 1. variables are references in Ruby
 2. In Ruby, the exclamation mark (!) at the end of a method typically indicates that the method is destructive.
-   A destructive method modifies the object it is called on, rather than returning a new object. 
+   A destructive method modifies the object it is called on, rather than returning a new object.
+3. $variable_name   #=> Global
+   @variable_name   #=> Instance
+   @@variable_name  #=> Class
+   variable_name    #=> Local or Block 
 =end
 ```
 
