@@ -108,7 +108,8 @@ puts name2   #=> ABHISHEK
 
 ```ruby
 print "Enter your name: "
-username = gets.chomp
+username = gets         #=> "Abhishek\n"
+username = gets.chomp   #=> "Abhishek"
 puts username
 
 print "Enter your age: "
